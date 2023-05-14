@@ -1,0 +1,18 @@
+
+
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+
+train: mydata/images/train #训练用的图片存放地址
+val: mydata/images/test  #测试用的图片存放地址
+
+
+# Classes 改成自己的类
+names:
+  0: normal_face
+  1: close_eye
+  2: yawn
+  3: calls
+  4: turn_around
+
+
+
